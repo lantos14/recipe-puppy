@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from '../../components/NavBar/NavBar';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import Result from '../../components/Result/Result';
-import getRecipeData from '../../services/controller';
+import getRecipeData from '../../services/getRecipeData';
 
 class App extends Component {
   state = {
